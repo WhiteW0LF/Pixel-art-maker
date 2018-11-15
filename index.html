@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Pixel Art Maker !</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+<body>
+<div class="game">
+    <!--head-->
+    <h1 class="logo-text">Pixel Art Maker</h1>
+    <img src="img/source.gif"sonik" id="start_gif1">
+    <img src="img/Sy6rPQM.gif" alt="pikachu" id="start_gif2">
+    <!--text and color-->
+        <form action="app.js">
+            Grid Height: <input type="number" id="input_height" name="height">
+            Grid Width: <input type="number" id="input_width" name="width" title="Recommendation : no more then 100">
+            <input type="submit" class="button">
+        </form>
+
+    <h2>Pick a color <input type="color" id="color_picker" value="#000" class="button"></h2>
+
+    <h2>Design Canvas</h2>
+
+    <button class="button" id="color_all">Color All</button>
+    <button class="button" id="clear_all">Clear All</button>
+
+    <table id="pixel-table"></table>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
